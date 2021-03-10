@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    color : white;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .contact{
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+image{
+    align-items: center;
+}
+h3{
+    color: white;
+}
+#contact .contact-item .contact-info{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    text-decoration: none;
+   }
+#header .header{
+    min-height: 4vh;
+    background-color: rgba(31, 30 , 30 ,0.24);
+}
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+#header .nav-list ul a{
+color: white;
+}
+#header .nav-list ul li{
+display: inline;
+font-size: 1rem;
+font-weight: 500;
+letter-spacing: .2rem;
+text-decoration: none;
+padding: 10px;
+text-transform: uppercase;
+display: inline;
+}
+footer{
+    display: block;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+   }
